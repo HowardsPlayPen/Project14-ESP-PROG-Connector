@@ -24,6 +24,17 @@ The board allows the same TDC2050 to be used - but along with an ESP32 debugging
 
 ![Kicad PCB 3D view of Project](Hardware/imgs/pcb-3d.png)
 
+## Schematic of TDC 2050 connector on my ESP32 board
+
+This is the schematic of the connector to put on the destination ESP32 board 
+
+![Schematic of connector to add to each project](Hardware/imgs/tdc2050-schematic.png)
+
+Example of connecting this to an ESP32-CAM for both USB monitoring and hardware debugging
+
+![Connecting the TDC2050 to an ESP32-CAM](Hardware/imgs/esp32cam-tdc2050.png)
+
+
 ## View of the project
 
 I am used to having RX + TX pins on my ESP32 boards or a USB-C connector - but with this project I can just add in the TDC-2050 pinout and then when I want to debug the board it is a simple connection to my PC. I can even hardware debug using the same connector.
