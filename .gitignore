@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+
+*.zip
+.pio
+.vscode
+
+**/Gerber/
+**/*backups*/ 
